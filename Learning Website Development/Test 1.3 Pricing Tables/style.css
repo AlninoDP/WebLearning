@@ -1,0 +1,47 @@
+body {
+    font-family: 'Sono', sans-serif;
+  }
+.flex-container {
+    display: flex;
+    padding: 15px;
+    height: 100vh;
+    gap: 2rem; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+
+.flex-container  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.plan-features{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.plan-features li {
+    margin-bottom: 20px;
+}
+.plan-button{
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    padding: 10px;
+}
+.container {
+    flex: 1; 
+    background-color: #f2f2f2;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+@media  (max-width: 1000px) {
+ .flex-container{
+    flex-direction: column;
+    height: 100%;
+ }   
+}
+ 

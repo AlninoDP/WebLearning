@@ -1,0 +1,23 @@
+.chess-board{
+    width: 400px; 
+    display: grid;
+    /* grid-template-columns : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+     
+}
+
+.white {
+    height: 50px;
+    width: 50px;
+    background-color: #f0d9b5;
+
+}
+
+.black {
+    height: 50px;
+    width: 50px;
+    background-color: #b58863;
+
+}
